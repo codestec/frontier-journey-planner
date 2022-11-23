@@ -1,0 +1,20 @@
+{
+  "origin": {
+    "lon": -2.126882,
+    "lat": 52.587563
+  },
+  "destination": {
+    "lon": -3.174764,
+    "lat": 51.489765
+  },
+  "mode": [
+    "CAR"
+  ],
+  "timeConstraint": {
+    "constraint": "ARRIVE",
+    "time": "2022-11-23 20:10:00"
+  },
+  "alternatives": 1,
+  "localTime": "2022-11-23 20:10:00",
+  "timeZone": "Europe/London"
+}

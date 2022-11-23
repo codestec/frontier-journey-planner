@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@turf/turf": "^6.5.0",
+    "config": "^3.3.8",
+    "date-fns": "^2.29.3",
+    "geo-tz": "^6.0.0",
+    "moleculer": "^0.14.23",
+    "moleculer-web": "^0.10.4",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.37",
+    "request-promise": "^4.2.6",
+    "underscore": "^1.13.4",
+    "which-polygon": "^2.2.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "@mapbox/polyline": "^1.1.1",
+    "geolib": "^3.3.3"
+  }
+}

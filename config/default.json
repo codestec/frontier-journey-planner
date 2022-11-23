@@ -1,0 +1,30 @@
+{
+    "routing_apis": {
+        "here": {
+            "apikey": "ons3Na1E6nq9yxhzQlxhzZOAlK8UO_G2ikF_4zC0dfE",
+            "ptHost": "https://transit.hereapi.com/v8/routes",
+            "prHost": "https://intermodal.router.hereapi.com/v8/routes",
+            "geocodeHost": "https://reverse.geocoder.ls.hereapi.com/6.2/reversegeocode.json",
+            "departuresFromStopHost": "https://transit.hereapi.com/v8/multiboard/by_stn_ids.json",
+            "modes": [
+                "PARK AND RIDE",
+                "PUBLIC TRANSPORT"
+            ]
+        },
+        "google": {
+            "host": "https://maps.googleapis.com/maps/api/directions/json?",
+            "app_id": "AIzaSyC-UuwI6Sp2rBmktAxyrweceHxkz8eYVkE",
+            "modes": [
+                "CAR"
+            ]
+        },
+        "bing": {
+            "app_id": "A1q78ShSXbYB40QWrS9N~RNiROFFfbrPBm2j9ZaChHA~Arslm33waVeqNbwkJkL8d1IQZtM-s1_HjBQcLcciJNVP9As75TnwKFlzOcVzCAYU",
+            "host": "http://dev.virtualearth.net/REST/v1/Routes",
+            "modes": [
+                "CAR"
+            ]
+        },
+        "routing_apis_request_timeout": 20000
+    }
+}
